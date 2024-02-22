@@ -1,0 +1,42 @@
+.member-status-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.member-status {
+    margin-bottom: 8px;
+    position: relative;
+    
+}
+
+.sidebar-online-status {
+    color: rgb(106, 253, 7) !important;
+}
+
+.sidebar-offline-status {
+    color: #ca0f0f !important;
+}
+
+.sidebar-offline-status,
+.sidebar-online-status {
+    font-size: 11px;
+    position: absolute;
+    z-index: 99;
+    bottom: 0;
+    left: 12px;
+}
+h2{
+    font-family: Georgia, serif;
+    font-style: unset;
+    text-align: center;
+    padding: 5px;
+    color: white !important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    color: white;
+}
+

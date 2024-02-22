@@ -1,0 +1,46 @@
+.container{
+    background-image: linear-gradient(rgb(64, 19, 188), rgb(113, 147, 212));
+    border: 4px solid rgb(11, 25, 146);
+    border-radius: 15px;
+
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    background-color: white;
+}
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #15018f !important;
+    
+
+}
+
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: #15018f !important;
+    border-radius: 8px;
+}
+.nav-link{
+    color: #fff !important;
+}
+img{
+   background-color: white;
+   border-radius: 10px;
+   margin: 5px;
+}
+a.active.nav-link{
+    margin-top: 2px;
+    display: inline-block !important;
+    flex-basis: auto !important;
+}
+.dropdown-item{
+    background-color: #5d84e8 !important;
+}
+.dropdown-menu.show {
+    background-color: #15018f;
+}
+.btn-danger{
+    color: black !important;
+   
+}

@@ -1,0 +1,24 @@
+.login__bg {
+    background-image: url(https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    border-radius: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.login-pg{
+    background-color: rgb(200, 213, 205);
+}
+
+.form-label{
+    color: black;
+}
+.btn.btn-primary{
+    background-color: rgb(41, 112, 218);
+}
+.text-center{
+    color: black;
+}
