@@ -3,7 +3,7 @@ import { Nav, Navbar, Container, Button, NavDropdown } from "react-bootstrap";
 import { useLogoutUserMutation } from "../services/appApi";
 import { useSelector } from "react-redux";
 import { LinkContainer } from "react-router-bootstrap";
-import logo from "../assets/logo.png";
+import mainlogo from "../assets/mainlogo.png";
 import "./Navigation.css";
 function Navigation() {
     const user = useSelector((state) => state.user);
@@ -20,7 +20,8 @@ function Navigation() {
             <Container>
                 <LinkContainer to="/">
                     <Navbar.Brand>
-                        <img src={logo} style={{ width: 50, height: 50 }} alt="" />
+                    
+                        <img src={mainlogo} style={{ width: 50, height: 50 }} alt="" />
                     </Navbar.Brand>
                 </LinkContainer>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
